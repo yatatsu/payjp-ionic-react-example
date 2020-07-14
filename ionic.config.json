@@ -1,0 +1,7 @@
+{
+  "name": "payjp-ionic-react-sample",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
