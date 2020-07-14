@@ -1,0 +1,19 @@
+{
+  "appId": "io.ionic.starter",
+  "appName": "payjp-ionic-react-sample",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "build",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  },
+  "cordova": {},
+  "server": {
+    "iosScheme": "httpspayjp",
+    "allowNavigation": [
+      "js.pay.jp"
+    ]
+  }
+}
