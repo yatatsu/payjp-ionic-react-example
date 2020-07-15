@@ -9,6 +9,7 @@ const elements = payjp.elements();
 const cardElement = elements.create('card');
 
 const handleSubmit = async (e: any) => {
+  e.preventDefault();
   const r = await payjp.createToken(cardElement);
   console.log(r);
 }
